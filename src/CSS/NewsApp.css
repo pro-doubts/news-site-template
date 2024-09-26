@@ -1,0 +1,74 @@
+code{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 9px;
+    top: 0;
+    position: sticky;
+}
+nav input{
+    width: 250px;
+    text-decoration: none;
+    padding: 9px;
+    font-size: 18px;
+    border: none;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+nav button{
+    width: 70px;
+    height: 38px;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    gap: 11px;
+    list-style-type: none;
+}
+nav ul li{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.quote-para{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.category-button{
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    position: sticky;
+    top: 90px;
+    background-color: rgb(237, 191, 191);
+    padding: 10px;
+}
+.category-button button{
+    gap: 11px;
+    width: 130px;
+    height: 33px;
+    background-color: rgb(255, 108, 108);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+
